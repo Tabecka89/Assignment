@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74a7da"
+    tools:context="com.example.galtabecka.assignment.MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ageEt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:maxLength="20" />
+
+    <EditText
+        android:id="@+id/ageEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEt"
+        android:layout_alignStart="@+id/nameEt"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/enter_age"
+        android:inputType="numberDecimal"
+        android:maxLength="3" />
+
+    <Button
+        android:id="@+id/submitBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageEt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:background="#ad6ea9"
+        android:onClick="onClick"
+        android:text="@string/submit"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="#74a7da"
+    tools:context="com.example.galtabecka.assignment.MainActivity">
+
+
+    <TextView
+        android:id="@+id/readyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        android:text="@string/ready"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/readyTv"
+        android:layout_marginEnd="11dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/difficultLevelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/readyTv"
+        android:layout_marginTop="159dp"
+        android:text="@string/choose_difficulty_level"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:background="#ad6ea9"
+        android:text="@string/easy" />
+
+    <Button
+        android:id="@+id/mediumBtn"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/easyBtn"
+        android:layout_marginBottom="135dp"
+        android:background="#ad6ea9"
+        android:text="@string/medium" />
+
+    <Button
+        android:id="@+id/hardBtn"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/easyBtn"
+        android:layout_marginBottom="68dp"
+        android:background="#ad6ea9"
+        android:text="@string/hard" />
+
+
+</RelativeLayout>

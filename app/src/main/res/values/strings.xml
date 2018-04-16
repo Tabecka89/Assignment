@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MoviesMemoryGame</string>
+    <string name="time">Countdown :</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="ready">Get Ready</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="submit">Submit</string>
+    <string name="hello">Hello</string>
+    <string name="choose_difficulty_level">Choose a difficulty level:</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+</resources>
